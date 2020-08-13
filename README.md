@@ -1,6 +1,6 @@
 # Marketplace startup evaluation for investment
  
-Initech is a marketplace startup. We have data of revenue per employer and worker per month, from Jan 2015 to May 2019 that include market of operation and revenue after direct costs. A preliminary look at the data shows that all workers, barring the very initial that operated in "other" market in addition to one of the cities, operate in only one city. This tells me that the marketplace is likely for a physical service: TaskRabbit-like, or on-site consultant, nurse-staffing, substitute teacher staffing (liquidity provider), etc. If Initech were similar to Upwork as stated in the prompt, work would've been location-agnostic.
+Initech is a marketplace startup. We have data of revenue per employer and worker per month, from Jan 2015 to May 2019 that include market of operation and revenue after direct costs. A preliminary look at the data shows that all workers, barring the very initial that operated in "other" market in addition to one of the cities, operate in only one city. This tells me that the marketplace is likely for a physical service: TaskRabbit-like, or on-site consultant, nurse-staffing, substitute teacher staffing (liquidity provider), etc. If Initech were similar to Upwork as stated in the prompt, work would've been location-agnostic. This analysis was conducted in one weekend, and more can certainly be done.
 
 ## Income Statement
 
