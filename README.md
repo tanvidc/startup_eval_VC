@@ -8,50 +8,50 @@ Disclaimer: I haven't formally learnt or worked with income statements before. S
 
 1. Initech has spent $14M of its $20M funding and has a 5-6 month runway with current status.
 
-2. Worker pay is 75-90% of the revenue, with a mean of ~84%. Gross margin is -2% to 21% barring an outlier: quite volatile, and fairly low compared to some marketplaces we might've heard of (https://blog.dealroom.co/farfetch-5-6-billion-valuation-a-closer-look/). Mean, stdev, and box-plots can be found in initech.xlsx > income_stmts tab. 
+2. Worker pay is 75-90% of the revenue, with a mean of ~84%. Gross margin is -2% to 21% barring an outlier: quite volatile, and [fairly low](https://blog.dealroom.co/farfetch-5-6-billion-valuation-a-closer-look/) compared to some marketplaces we might've heard of. Mean, stdev, and box-plots can be found in initech.xlsx > income_stmts tab. 
 
 Of course, Initech is early stage, so there is potential for gain with scale, but those gains will likely be in reduced indirect costs unless the worker service is low skilled. If the service is in a specialized sector like nursing where the potential labor pool is not very big, Initech will not be able to reduce %worker pay. 
 
 3. Customer support is a major indirect cost. This is probably in the form of refunds, although it could be outsourced phone/online customer support. Worker quality control, stricter guidelines, etc. can reduce this cost.
 
-![income_stmts](https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/inst.PNG)
+![income_stmts](https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/inst.PNG)
 
 4. Income statement items are plotted against time. Payment processing stands out, since it isn't correlated with revenue. The payment processing fees are usually a fixed amount and a percentage. Perhaps the transaction size change is causing this. ie when the revenue is high but payment processing cost hasn't increased, there were fewer larger transactions.
 
 ## Accounting for user growth
 
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/growth.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/growth.PNG" width="800">
 1. Quick ratio measures how efficiently a company is growing in terms of users or revenue gained per every user or or revenue lost (this metric and others we'll discus were inspired from the awesome post by tribecap.co).
 We don't see any phase lag between employer and worker growth. Hmm. Without any lag, and without transaction data, we can't definitively say the limiting factor. In many marketplaces, payer acquisition takes more effort than payee (companies like Uber are an exception, because the service provided was substantially better than status quo, and large sign up bonuses needed to be offered to create a critical size driver network). 
 
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/wgrowth.PNG" width="800">
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/egrowth.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/wgrowth.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/egrowth.PNG" width="800">
 2. The elephant in the room: holiday churn. Most users are ressurected after the Thanksgiving/Christmas dip. Given time, I'd make perhaps 4-month windows (in addition to monthly here) and see retention from Oct to Feb. Since employer marketing and sales, and worker marketing are substantial costs, looking at retention barring holiday dip is worth looking at. During normal times, retention is ~77% for both workers and employers. Quick ratio ~1.3 for both as well, outside of seasonal anomalies.
 
 ## Accounting for revenue growth
 Just like users, we see a dip around holidays, but most of that revenue is regained by February of the following year, but increased amounts spent on sales and marketing, and a discount campaign in 2018 might be a factor in pulling these users back.
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/emrr.PNG" width="800">
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/wmrr.PNG" width="800">
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/mrr.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/emrr.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/wmrr.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/mrr.PNG" width="800">
 
 ## Cohort LTV
 In the ~2.5 days I took to work on this take-home, I haven't been able to work on this section fully. Irrespective of the hiring decision, I plan to come back to this section when I find some time, likely the week of Aug 17 2020. 
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/e_ltv.PNG" width="600">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/e_ltv.PNG" width="600">
 
 I decided to split the cohorts into 3-month chunks (quarterly) because visualizing 18 cohorts might work better than 54 cohorts. The plot shows that the early sign up employers continue generating higher revenue each month than the newer ones. The curves are super-linear, which means that revenue per month for each cohort is inceasing over time. That's a good sign. The heatmap below is another way to see that the initial cohorts contributed to increased revenue faster.
 
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/e_ltv_hm.PNG" width="600">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/e_ltv_hm.PNG" width="600">
 
 ## Other considerations
 There are so many other factors that would affect investment decision: some qualitative, and some potentially quantitative ones that we don't have data for. For example, experience or economic advantage vs status quo, opportunity for technology to add value, current fragmentation, friction vs incentive to change, market size (both employer and worker side), and team potential. I'd ask them about transaction size, choice of markets and market performance, 
 
 ## Tid-bits
 ### Markets
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/city.PNG" width="800">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/city.PNG" width="800">
 Most markets are minuscule compared to SF Bay Area and LA. Will have to communicate more with Initech to understand the performance by city so far, as well as scope.
 
 ### Power users/ Distribution of Product-Market fit
-<img src="https://github.com/tanvidc/Marketplace_startup_eval_VC/blob/master/graphs/distribution.PNG" width="600">
+<img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/distribution.PNG" width="600">
 Do few companies make most of the revenue for Initech? According to this cdf, no, and that's usually good! For companies that heavily rely on few big customers (or one, WhatsApp in case of Twilio), losing the client is a high risk. 
 
 
