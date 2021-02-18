@@ -21,8 +21,7 @@ Of course, Initech is early stage, so there is potential for gain with scale, bu
 ## Accounting for user growth
 
 <img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/growth.PNG" width="800">
-1. Quick ratio measures how efficiently a company is growing in terms of users or revenue gained per every user or or revenue lost (this metric and others we'll discus were inspired from the awesome [posts by Jonathan Hsu](https://medium.com/swlh/diligence-at-social-capital-part-1-accounting-for-user-growth-4a8a449fddfc) .
-We don't see any phase lag between employer and worker growth. Hmm. Without any lag, and without transaction data, we can't definitively say the limiting factor. In many marketplaces, payer acquisition takes more effort than payee (companies like Uber are an exception, because the service provided was substantially better than status quo, and large sign up bonuses needed to be offered to create a critical size driver network). 
+1. Quick ratio measures how efficiently a company is growing in terms of users or revenue gained per every user or or revenue lost. We don't see any phase lag between employer and worker growth. Hmm. Without any lag, and without transaction data, we can't definitively say the limiting factor. In many marketplaces, payer acquisition takes more effort than payee (companies like Uber are an exception, because the service provided was substantially better than status quo, and large sign up bonuses needed to be offered to create a critical size driver network). 
 
 <img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/wgrowth.PNG" width="800">
 <img src="https://github.com/tanvidc/startup_eval_VC/blob/master/graphs/egrowth.PNG" width="800">
